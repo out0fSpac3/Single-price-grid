@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color:  #e5eff5;
+    font-family: "Karla", sans-serif;
+    font-size: 1rem;
+}
+    
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 45%;
+}
+
+.top-section {
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 20px 40px;
+}
+
+.main-para {
+    color:  #1f9e9c;
+}
+
+.free-trial {
+    color: #c0df34;
+}
+
+.content {
+    color: #828588;
+    line-height: 1.3rem;
+    padding-bottom: 10px;
+}
+
+.bottom-section {
+    display: flex;
+    width: 100%;
+    margin-top: -16px;
+}
+
+.bottom-left-section {
+    width: 50%;
+    border-bottom-left-radius: 6px;
+    background-color: #2ab2af;
+    padding: 20px 40px;
+}
+
+.subscription {
+    color: white;
+}
+
+.monthly {
+    color: white;
+    font-size: 2rem;
+    margin-top: -3px;
+}
+
+.per-month {
+    font-size: 1rem;
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 11px;
+    opacity: 0.5;
+}
+
+.cost {
+    color: white;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    border: none;
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: #c0df34;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #d4f543;
+}
+
+.bottom-right-section {
+    width: 50%;
+    border-bottom-right-radius: 6px;
+    background-color: #23c5c2;
+}
+
+.why-us {
+    color: white;
+    padding: 20px 40px 0 40px;
+}
+
+.list {
+    color: white;
+    list-style: none;
+    padding: 0 40px 20px 40px;
+    line-height: 1.3rem;
+}
+
+
+ @media screen and (max-width: 600px) {
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color:  #e5eff5;
+    font-family: "Karla", sans-serif;
+    font-size: 0.9rem;
+}
+
+.main-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+
+.top-section {
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 25px;
+    line-height: 1.2;
+}
+
+.main-para {
+    color:  #1f9e9c;
+    line-height: 1.2;
+}
+
+.free-trial {
+    color: #c0df34;
+}
+
+.content {
+    color: #828588;
+    line-height: 1.3rem;
+    opacity: 0.7;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bottom-left-section {
+    width: 100%;
+    background-color: #2ab2af;
+    border-radius: 0;
+    padding: 25px;
+}
+
+.subscription {
+    color: white;
+    margin-top: -5px;
+}
+
+.monthly {
+    color: white;
+    font-size: 2rem;
+    margin-top: -10px;
+}
+
+.per-month {
+    font-size: 1rem;
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 11px;
+    opacity: 0.5;
+}
+
+.cost {
+    color: white;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    border: none;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: #c0df34;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.bottom-right-section {
+    width: 100%;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #23c5c2;
+    padding-top: 4px;
+}
+
+.why-us {
+    color: white;
+    margin-top: -5px;
+    margin-left: -15px;
+}
+
+.list {
+    color: white;
+    list-style: none;
+    line-height: 1.3rem;
+    opacity: 0.7;
+    margin-left: -15px;
+}
+
+}
